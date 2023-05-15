@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Home</title>
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+<body>
+   
+<!-- header section starts  -->
+
+<header class="header">
+
+   <nav class="navbar nav-1">
+      <section class="flex">
+         <a href="home.html" class="logo"><i class="fas fa-house"></i>Real-Estate</a>
+
+         <ul>
+            <li><a href="https://docs.google.com/forms/d/e/1FAIpQLScDpL7AOzKj_LnopS01Rn7MrLJLXyxcMmeXiTR4bR44-7S2Rg/viewform?vc=0&c=0&w=1&flr=0" target="_blank">Book Now<i class="fas fa-paper-plane"></i></a></li>
+         </ul>
+      </section>
+   </nav>
+
+   <nav class="navbar nav-2">
+      <section class="flex">
+         <div id="menu-btn" class="fas fa-bars"></div>
+
+         <div class="menu">
+            <ul>
+               <li><a href="#">Buy<i class="fas fa-angle-down"></i></a>
+                  <ul>
+                     <li><a href="#">House</a></li>
+                     <li><a href="#">Flat</a></li>
+                     <li><a href="#">Shop</a></li>
+                     <li><a href="#">Ready to move</a></li>
+                     <li><a href="#">Furnished</a></li>
+                  </ul>
+               </li>
+               <li><a href="#">Sell<i class="fas fa-angle-down"></i></a>
+                  <ul>
+                     <li><a href="#">Book Now</a></li>
+                     <li><a href="#">dashboard</a></li>
+                  </ul>
+               </li>
+               <li><a href="#">Rent</a>
+                  <ul>
+                     <li><a href="#">House</a></li>
+                     <li><a href="#">Flat</a></li>
+                     <li><a href="#">Shop</a></li>
+                  </ul>
+               </li>
+               <li><a href="#">Help<i class="fas fa-angle-down"></i></a>
+                  <ul>
+                     <li><a href="about.html">About us</a></i></li>
+                     <li><a href="contact.html">Contact us</a></i></li>
+                     <li><a href="contact.html#faq">FAQ</a></i></li>
+                  </ul>
+               </li>
+            </ul>
+         </div>
+
+         <ul>
+            <li><a href="#">Saved <i class="far fa-heart"></i></a></li>
+            <li><a href="#">Account <i class="fas fa-angle-down"></i></a>
+               <ul>
+                  <li><a href="login.html">login</a></li>
+                  <li><a href="register.html">register</a></li>
+               </ul>
+            </li>
+         </ul>
+      </section>
+   </nav>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<div class="home">
+
+   <section class="center">
+
+      <form action="search.html" method="post">
+         <h3>Search Your Dream Home</h3>
+         <div class="box">
+            <p>Enter Dream Location <span>*</span></p>
+            <input type="text" name="location" required maxlength="50" placeholder="Enter Ciyt Name" class="input">
+         </div>
+         <div class="flex">
+            <div class="box">
+               <p>Property Type <span>*</span></p>
+               <select name="Type" class="input" required>
+                  <option value="Flat">Flat</option>
+                  <option value="House">House</option>
+                  <option value="Shop">Shop</option>
+               </select>
+            </div>
+            <div class="box">
+               <p>BHK <span>*</span></p>
+               <select name="BHK" class="input" required>
+                  <option value="1">1 BHK</option>
+                  <option value="2">2 BHK</option>
+                  <option value="3">3 BHK</option>
+                  <option value="4">4 BHK</option>
+                  <option value="5">5 BHK</option>
+                  <option value="6">6 BHK</option>
+               </select>
+            </div>
+            <div class="box">
+               <p>Minimum Budget <span>*</span></p>
+               <select name="Minimum" class="input" required>
+                  <option value="5000000">5 lac</option>
+                  <option value="1000000">10 lac</option>
+                  <option value="2000000">20 lac</option>
+                  <option value="3000000">30 lac</option>
+                  <option value="4000000">40 lac</option>
+                  <option value="4000000">40 lac</option>
+                  <option value="5000000">50 lac</option>
+                  <option value="6000000">60 lac</option>
+                  <option value="7000000">70 lac</option>
+                  <option value="8000000">80 lac</option>
+                  <option value="9000000">90 lac</option>
+                  <option value="10000000">1 Cr</option>
+                  <option value="20000000">2 Cr</option>
+                  <option value="30000000">3 Cr</option>
+                  <option value="40000000">4 Cr</option>
+                  <option value="50000000">5 Cr</option>
+                  <option value="60000000">6 Cr</option>
+                  <option value="70000000">7 Cr</option>
+               </select>
+            </div>
+            <div class="box">
+               <p>Maximum Budget <span>*</span></p>
+               <select name="Maximum" class="input" required>
+                  <option value="5000000">5 lac</option>
+                  <option value="1000000">10 lac</option>
+                  <option value="2000000">20 lac</option>
+                  <option value="3000000">30 lac</option>
+                  <option value="4000000">40 lac</option>
+                  <option value="4000000">40 lac</option>
+                  <option value="5000000">50 lac</option>
+                  <option value="6000000">60 lac</option>
+                  <option value="7000000">70 lac</option>
+                  <option value="8000000">80 lac</option>
+                  <option value="9000000">90 lac</option>
+                  <option value="10000000">1 Cr</option>
+                  <option value="20000000">2 Cr</option>
+                  <option value="30000000">3 Cr</option>
+                  <option value="40000000">4 Cr</option>
+                  <option value="50000000">5 Cr</option>
+                  <option value="60000000">6 Cr</option>
+                  <option value="70000000">7 Cr</option>
+                  <option value="80000000">8 Cr</option>
+                  <option value="90000000">9 Cr</option>
+                  <option value="100000000">10 Cr</option>
+                  <option value="150000000">15 Cr</option>
+                  <option value="200000000">20 Cr</option>
+               </select>
+            </div>
+         </div>
+         <input type="submit" value="search property" name="search" class="btn">
+      </form>
+
+   </section>
+
+</div>
+
+<!-- home section ends -->
+
+
+<!--Map Section Start-->
+
+
+   <div class="mapping">
+      <h1>Chandigarh Location &#128506;</h1>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d109740.86931267123!2d76.68112729449801!3d30.7352029776042!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390fed0be66ec96b%3A0xa5ff67f9527319fe!2sChandigarh!5e0!3m2!1sen!2sin!4v1682964593137!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+   </div>
+
+
+<!-- services section starts  -->
+
+<section class="services">
+
+   <h1 class="heading">Our services</h1>
+   
+   <div class="box-container">
+
+      <div class="box">
+         <img src="images/icon-1.png" alt="">
+         <h3>Buy House</h3>
+         <p>Hey.. Buy your Dream Home with Us we are providing Best Home in India.</p>
+      </div>
+
+      <div class="box">
+         <img src="images/icon-2.png" alt="">
+         <h3>Rent House</h3>
+         <p>Hey.. Rent your Dream Home with Us we are providing best Customer and Services.</p>
+      </div>
+
+      <div class="box">
+         <img src="images/icon-3.png" alt="">
+         <h3>Sell House</h3>
+         <p>Hey.. Sell your Home with Us we are providing Best Customer for your house at Best price.</p>
+      </div>
+
+      <div class="box">
+         <img src="images/icon-4.png" alt="">
+         <h3>Flats and Buildings</h3>
+         <p>We are serving best flat and building since 2010 and our customers are very Happy.</p>
+      </div>
+
+      <div class="box">
+         <img src="images/icon-5.png" alt="">
+         <h3>Shops and Malls</h3>
+         <p>We are also providing building for Malls and Shops and our services are truly Amazing.</p>
+      </div>
+
+      <div class="box">
+         <img src="images/icon-6.png" alt="">
+         <h3>24/7 service</h3>
+         <p>We are providing help line Customer-Care who are going to clear your all doubts.</p>
+      </div>
+
+   </div>
+
+</section>
+
+<!-- services section ends -->
+
+<!-- listings section starts  -->
+
+<section class="listings">
+
+   <h1 class="heading">latest listings</h1>
+
+   <div class="box-container">
+
+      <div class="box">
+         <div class="admin">
+            <h3>S</h3>
+            <div>
+               <p>Sheetesh Kumar</p>
+               <span>24-02-2023</span>
+            </div>
+         </div>
+         <div class="thumb">
+            <p class="total-images"><i class="far fa-image"></i><span>4</span></p>
+            <p class="type"><span>Villa</span><span>Sale</span></p>
+            <form action="" method="post" class="save">
+               <button type="submit" name="save" class="far fa-heart"></button>
+            </form>
+            <img src="images/house-img-1.webp" alt="">
+         </div>
+         <h3 class="name">New Modern Villa for Sale</h3>
+         <p class="location"><i class="fas fa-map-marker-alt"></i><span>Mohali, Punjab</span></p>
+         <div class="flex">
+            <p><i class="fas fa-bed"></i><span>4</span></p>
+            <p><i class="fas fa-bath"></i><span>3</span></p>
+            <p><i class="fas fa-maximize"></i><span>750sqft</span></p>
+         </div>
+         <a href="view_property.html" class="btn">View Property</a>
+      </div>
+
+      <div class="box">
+         <div class="admin">
+            <h3>N</h3>
+            <div>
+               <p>Naman Kandhari</p>
+               <span>25-02-2023</span>
+            </div>
+         </div>
+         <div class="thumb">
+            <p class="total-images"><i class="far fa-image"></i><span>4</span></p>
+            <p class="type"><span>House</span><span>Rent</span></p>
+            <form action="" method="post" class="save">
+               <button type="submit" name="save" class="far fa-heart"></button>
+            </form>
+            <img src="images/house-img-2.webp" alt="">
+         </div>
+         <h3 class="name">New Modern House for Rent</h3>
+         <p class="location"><i class="fas fa-map-marker-alt"></i><span>Kharar, Mohali</span></p>
+         <div class="flex">
+            <p><i class="fas fa-bed"></i><span>3</span></p>
+            <p><i class="fas fa-bath"></i><span>2</span></p>
+            <p><i class="fas fa-maximize"></i><span>750sqft</span></p>
+         </div>
+         <a href="view_property.html" class="btn">View property</a>
+      </div>
+
+      <div class="box">
+         <div class="admin">
+            <h3>P</h3>
+            <div>
+               <p>Prateek Sahani</p>
+               <span>26-02-2023</span>
+            </div>
+         </div>
+         <div class="thumb">
+            <p class="total-images"><i class="far fa-image"></i><span>4</span></p>
+            <p class="type"><span>Flat</span><span>Sale</span></p>
+            <form action="" method="post" class="save">
+               <button type="submit" name="save" class="far fa-heart"></button>
+            </form>
+            <img src="images/house-img-3.jpg" alt="">
+         </div>
+         <h3 class="name">Modern flats and Appart.</h3>
+         <p class="location"><i class="fas fa-map-marker-alt"></i><span>Chandigarh, Punjab</span></p>
+         <div class="flex">
+            <p><i class="fas fa-bed"></i><span>3</span></p>
+            <p><i class="fas fa-bath"></i><span>2</span></p>
+            <p><i class="fas fa-maximize"></i><span>750sqft</span></p>
+         </div>
+         <a href="view_property.html" class="btn">View property</a>
+      </div>
+
+   </div>
+
+   <div style="margin-top: 2rem; text-align:center;">
+      <a href="listings.html" class="inline-btn">View all</a>
+   </div>
+
+
+</section>
+
+
+<!-- listings section ends -->
+
+
+
+<!--  Team   -->
+
+
+
+    <!-- My teams section -->
+
+    <section class="teams" id="teams">
+      <div class="max-width">
+          <h2 class="title">Our Teams</h2>
+          <div class="carousel owl-carousel">
+             <div class="card">
+              <div class="box">
+                  <img src="images/sheeteshpic.jpg" alt="">
+                  <div class="text">Sheetesh Kumar
+                     <button class="morebtn">
+                        <a href="aboutme.html" target="_blank">Click Me</a>
+                     </button>
+                  </div>
+              </div>
+             </div>
+
+             <div class="card">
+              <div class="box">
+                  <img src="images/nmn.jpg" alt="">
+                  <div class="text">Naman Kandhari
+                     <button class="morebtn">
+                        <a href="aboutme.html" target="_blank">Click Me</a>
+                     </button>
+                  </div>
+              </div>
+             </div>
+
+             <div class="card">
+              <div class="box">
+                  <img src="images/anjul.jpg" alt="">
+                  <div class="text">Anjul Chauhan
+                     <button class="morebtn">
+                        <a href="aboutme.html" target="_blank">Click Me</a>
+                     </button>
+                  </div>
+              </div>
+             </div>
+             <div class="card">
+              <div class="box">
+                  <img src="images/shubh.jpg" alt="">
+                  <div class="text">Shubhang Mishra
+                     <button class="morebtn">
+                        <a href="aboutme.html" target="_blank">Click Me</a>
+                     </button>
+                  </div>
+              </div>
+             </div>
+             <div class="card">
+               <div class="box">
+                   <img src="images/paropic.jpg" alt="">
+                   <div class="text">Prateek Sahani
+                     <button class="morebtn">
+                        <a href="aboutme.html" target="_blank">Click Me</a>
+                     </button>
+                   </div>
+               </div>
+              </div>
+          </div>
+      </div>
+  </section>
+
+
+
+
+
+<!-- footer section starts  -->
+
+<footer class="footer">
+
+   <section class="flex">
+
+      <div class="box">
+         <a href="tel:6204588100"><i class="fas fa-phone"></i><span>Sheetesh - 6204588100</span></a>
+         <a href="tel:8840159023"><i class="fas fa-phone"></i><span>Shubhang - 8840159023</span></a>
+         <a href="tel:8840159023"><i class="fas fa-phone"></i><span>Naman - 6280341285</span></a>
+         <a href="mailto:siteshkumar950@gmail.com"><i class="fas fa-envelope"></i><span>siteshkumar950@gmail.com</span></a>
+         <a href="#"><i class="fas fa-map-marker-alt"></i><span>Mohali, Punjab</span></a>
+      </div>
+
+      <div class="box">
+         <a href="home.html"><span>Home</span></a>
+         <a href="about.html"><span>About</span></a>
+         <a href="contact.html"><span>Contact</span></a>
+         <a href="listings.html"><span>All listings</span></a>
+         <a href="#"><span>Saved properties</span></a>
+      </div>
+
+      <div class="box">
+         <a href="https://www.facebook.com/profile.php?id=100019241138486"><span>Facebook</span><i class="fab fa-facebook-f"></i></a>
+         <a href="https://twitter.com/Sheetesh_"><span>Twitter</span><i class="fab fa-twitter"></i></a>
+         <a href="https://www.linkedin.com/in/sheetesh-kumar-17565a212/"><span>Linkedin</span><i class="fab fa-linkedin"></i></a>
+         <a href="https://www.instagram.com/sheetesh_950/"><span>Instagram</span><i class="fab fa-instagram"></i></a>
+
+      </div>
+
+   </section>
+
+   <div class="credit">&copy; copyright @ 2022 by <span>Team-Highfy</span> | all rights reserved!</div>
+
+</footer>
+
+<!-- footer section ends -->
+
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+</body>
+</html>

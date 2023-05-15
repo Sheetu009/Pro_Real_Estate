@@ -1,0 +1,81 @@
+body{
+    background-color: rgb(182, 211, 206);
+    margin: 0 auto;
+    max-width: 900px;
+    width: 100%;
+}
+.header{
+    font-family: 'Times New Roman', Times, serif;
+    color: crimson;
+}
+#box{
+    float: right;
+    margin: 20px;
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+    background-color: rgb(249, 249, 249);
+    padding: 0.5em;
+    clip-path: circle(50% at 50% 50%);
+    cursor: pointer;
+}
+span {
+    float: left;
+    width: 0.7em;
+    font-size: 400%;
+    font-family: algerian, courier;
+    line-height: 80%;
+  }
+.pink{
+    background-color: crimson;
+    padding: 15px;
+    color: white;
+    cursor: pointer;
+   
+}
+.container{
+    width: 100%;
+    height: auto;
+    background: #5aece0e6;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+}
+p{
+    font-size: 20px;
+    margin-left: 2%;
+}
+#pic{
+    float: right;
+    width: 120px;
+    padding: 2px;
+    position: relative;
+    border-radius: 5px;
+    background-color: rgb(137, 131, 131);
+    padding: 0.1em;
+    clip-path: circle(50% at 50% 50%);
+}
+h1{
+    color: crimson;
+    border-radius: 2px;
+}
+.box{
+    width: 100%;
+    height: 150px;
+    background: rgb(42, 115, 145);
+    margin: 20px;
+    box-sizing: border-box;
+    font-size: 35px;
+}
+
+@media screen and (max-width:1200px){
+    .box{
+        width: 40%;
+    }
+}
+@media screen and (max-width:600px){
+    .box{
+        width: 90%;
+    }
+}
